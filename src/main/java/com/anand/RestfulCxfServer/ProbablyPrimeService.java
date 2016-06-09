@@ -25,6 +25,6 @@ public class ProbablyPrimeService {
 	public String isPrime(@PathParam("number") int number)
 	{
 		System.out.println("Inside the method to check prime");
-		return "Entered number is " + number;
+		return "Entered number is " + number+". Is this the prime number???";
 	}
 }
